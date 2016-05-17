@@ -129,6 +129,11 @@ select-string  -casesensitive
 
 [More](https://www.penflip.com/powershellorg/a-unix-persons-guide-to-powershell/blob/master/commands-detail-e.txt) 
 
+## egrep -c
+````
+select-string 'Chelsea FC' c:\temp\transcript_20160517.log | measure-object | select count
+````
+
 ## egrep -v 
 
 ````
